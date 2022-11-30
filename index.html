@@ -1,0 +1,49 @@
+<!-- by @creazerty -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Morpho Clip Path</title>
+</head>
+<body>
+
+    <div id="container">
+        <img class="clip" src="./images/image1.jpg" alt="image" />
+        <img class="clip" src="./images/image2.jpg" alt="image" />
+        <img class="clip" src="./images/image3.jpg" alt="image" />
+        <p id="title">Morpho</p>
+        <p class="sign">by @creazerty</p>
+    </div>
+
+    <!-- blobs -->
+    <svg
+        id="blob1"
+        viewBox="0 0 1500 1500"
+        xmlns="http://www.w3.org/2000/svg"
+    >
+    <g clip-path="url(#shape)"><path fill="black" d="M890,690.5Q804,881,604,900Q404,919,260.5,802Q117,685,113,498.5Q109,312,250,167Q391,22,581,91Q771,160,873.5,330Q976,500,890,690.5Z" /></g>
+    </svg>
+
+    <svg
+        id="blob2"
+        viewBox="0 0 1000 1000"
+        xmlns="http://www.w3.org/2000/svg"
+        >
+        <g clip-path="url(#shape)"><path fill="white" d="M890,690.5Q804,881,604,900Q404,919,260.5,802Q117,685,113,498.5Q109,312,250,167Q391,22,581,91Q771,160,873.5,330Q976,500,890,690.5Z" /></g>
+    </svg>
+
+    <svg
+        id="blob3"
+        viewBox="0 0 1000 1000"
+        xmlns="http://www.w3.org/2000/svg"
+        >
+        <g clip-path="url(#shape)"><path fill="orange" d="M890,690.5Q804,881,604,900Q404,919,260.5,802Q117,685,113,498.5Q109,312,250,167Q391,22,581,91Q771,160,873.5,330Q976,500,890,690.5Z" /></g>
+    </svg>
+
+    
+    <script src="./app.js"></script>
+</body>
+</html>
